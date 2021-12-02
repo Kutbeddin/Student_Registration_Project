@@ -1,8 +1,8 @@
 function UI(){
 }
 
-console.log(new Object().prototype);
-console.log(UI.prototype);
+// console.log(new Object().prototype);
+// console.log(UI.prototype);
 
 UI.prototype.addStudentToUI = (newStudentObject) =>{
     console.log(newStudentObject);
@@ -15,22 +15,13 @@ UI.prototype.addStudentToUI = (newStudentObject) =>{
     <td><a href="#" id="delete-student" class="btn btn-danger">Delete Student</a></td>
     </tr>`;
 }
-
+// console.log(typeof UI)
 UI.prototype.clearInputs = (inputArray) =>{
     inputArray.forEach(element => {
         element.value = "";
     });
 }
-// UI.prototype.clearStudents = () =>{
-   
-// }
-// Array.prototype.filter();
-// Array.prototype.map();
-// Array.prototype.splice();
-// Array.prototype.reduce();
-// String.prototype.split();
-// const array = new Array();
-// array.map();
+
 
 
 
